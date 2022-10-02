@@ -73,3 +73,17 @@ API는 과거로부터 발전되어온 용어로 라이브러리 및 프레임�
 ### API 종류
 - private: 내부적으로 사용된다. 주로 해시키를 하드코딩 해놓고 이를 기반으로 서버와 서버간의 통신을 합니다. 이는 비즈니스 파트너와도 사용될 수 있습니다. private하게도 해당 파트너와 해시키를 공유해서 통신할 수 있다.
 - public: 모든 사람이 사용할 수 있다. 많은 트래픽을 방지하기 위해 하루 요청수 제한, 계정당 몇개 등으로 관리한다.
+
+## 실습
+
+어떠한 예측기반 데이터를 얻기 위해서는 수치모델과 AI를 바탕으로 예측 데이터를 얻을 수 있다. 이것을 기반으로 만들어진 OPEN API가 있는데 이것을 통하여 활용해보자.
+
+우리가 사용할 api의 url은 다음과 같다.
+
+[https://api.open-meteo.com/v1/forecast?latitude=37.5665&longitude=126.9780&hourly=temperature\_2m](https://api.open-meteo.com/v1/forecast?latitude=37.5665&longitude=126.9780&hourly=temperature_2m)
+
+위의 사이트를 가보면 json형태로 데이터가 나오는데 이것을 파싱하여 차트를 만들 것이다. 차트를 쉽게 만들기 위해 [chart.js](https://www.chartjs.org/docs/latest/getting-started/)를 사용할 것이다.
+
+사용법은 위 링크를 참조하여 사용하면 된다.
+
+이런 식으로 다른 open api도 연동하여 사용이 가능하며 쉽고 빠르게 개발이 가능하다.

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CSKnowledgeList>
+  <CS>
+    <name>디자인패턴</name> <difficult>5</difficult>
+  </CS>
+  <CS>
+    <name>네트워크</name> <difficult>4</difficult>
+  </CS> 
+</CSKnowledgeList>
