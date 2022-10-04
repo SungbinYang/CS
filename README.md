@@ -9,3 +9,4 @@
 - API 실습 #2 Node.js로 간단한 API 만들기
 - 클라우드, SaaS, IaaS, PaaS
 - 도커, 컨테이너
+- 정적타입시스템의 필요성
