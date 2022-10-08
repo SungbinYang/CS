@@ -31,6 +31,7 @@ pool.query(query, function (error, results, fields) {
   if (error) throw error;
   console.log('The solution is: ', results[0].solution);
 });
+
 // 모듈 B
 pool.query(query, function (error, results, fields) {
   if (error) throw error;
